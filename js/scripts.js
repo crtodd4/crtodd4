@@ -1,6 +1,6 @@
 console.log("OK");
 
-const backgrounds = [
+let backgrounds = [
   'bg0'
   'bg1'
   'bg2'
