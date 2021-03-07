@@ -33,17 +33,46 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" 
+    href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
   </head>
   <body>
     <h1>Cameron Todd</h1>
 
-    <img src="/img/cameron.jpg" alt="me" />
-
+    <img id="portrait" src="/img/cameron.jpg" alt="me" />
     <p>
       I was born in Tacoma, Washington in 1999. Ever since I could draw, I was
       into designing things. Everyday I love to create content, whether it is
       cover art, music, or anything in between.
     </p>
+
+    <div id="title">
+      <h1>Some of my Work</h1>
+    </div>
+
+    <div id="gallery">
+      
+      <a href="https://i.imgur.com/8wxRu63.jpg">
+        <img src="https://i.imgur.com/2NgVb9W.jpg" alt="thumbnail">
+     </a>
+      
+      <a href="https://i.imgur.com/B9TwGjq.png">
+        <img src="https://i.imgur.com/87LkBFx.jpg" alt="thumbnail">
+     </a>
+      
+      <a href="https://i.imgur.com/TC3PpUV.jpg">
+        <img src="https://i.imgur.com/xtpwPsS.jpg" alt="thumbnail">
+     </a>
+      
+      <a href="https://i.imgur.com/rX0Bp2b.png">
+        <img src="https://i.imgur.com/xbz4HLq.jpg" alt="thumbnail">
+     </a>
+      
+      <a href="https://i.imgur.com/uAwDm0Z.jpg">
+        <img src="https://i.imgur.com/vQsOWjR.jpg" alt="thumbnail">
+     </a>
+      
+    </div>
 
     <h2>Contact Me</h2>
     <form
@@ -74,5 +103,8 @@
     </form>
 
     <script src="/js/scripts.js"></script>
+    <script src=
+    "https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script type="text/javascript">lightGallery(document.getElementById('gallery'));</script>
   </body>
 </html>

@@ -6,13 +6,68 @@ body {
 }
 
 .bg0 {
-  background: red;
+  background: #91c9ea; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91c9ea,
+    #3473e9,
+    #1e1e99
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91c9ea, #3473e9, #1e1e99);
 }
 
 .bg1 {
-  background: greenyellow;
+  background: #a7edff;
+  background: -webkit-linear-gradient(to right, #a7edff, #0460c9);
+  background: linear-gradient(to right, #a7edff, #0460c9);
 }
 
 .bg2 {
-  background: blueviolet;
+  background: #f1b138;
+  background: -webkit-linear-gradient(to right, #99f135, #eb9045);
+  background: linear-gradient(to right, #99f135, #eb9045);
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  width: 180px;
+}
+
+#portrait {
+  border: none;
+  box-shadow: none;
+  width: 200px;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3px;
+}
+
+a {
+  margin: 5px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+div.lg-item,
+div.lg-loaded,
+div.lg-current,
+div.lg-complete {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
