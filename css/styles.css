@@ -1,18 +1,19 @@
 body {
-  background: cadetblue;
+  background: #252525;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
   text-align: center;
 }
 
+/*
 .bg0 {
-  background: #91c9ea; /* fallback for old browsers */
+  background: #91c9ea; 
   background: -webkit-linear-gradient(
     to right,
     #91c9ea,
     #3473e9,
     #1e1e99
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(to right, #91c9ea, #3473e9, #1e1e99);
 }
 
@@ -27,16 +28,18 @@ body {
   background: -webkit-linear-gradient(to right, #99f135, #eb9045);
   background: linear-gradient(to right, #99f135, #eb9045);
 }
+*/
 
 h1 {
   color: white;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 img {
-  border: 2px solid #000000;
+  border: 2px solid firebrick;
   box-sizing: border-box;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 7px;
+  border-radius: 3px;
   width: 180px;
 }
 
@@ -70,4 +73,8 @@ div.lg-complete {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+p {
+  color: white;
 }
