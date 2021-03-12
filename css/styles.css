@@ -1,6 +1,6 @@
 body {
   padding-top: 130px;
-  background: #0f0f0f;
+  background: #e4f2f5;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
   text-align: center;
@@ -32,16 +32,24 @@ body {
 */
 
 h1 {
-  color: white;
+  color: black;
   font-family: "Josefin Sans", sans-serif;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
 }
 
 #gallery img {
-  border: 2px solid firebrick;
+  border: 3px solid #457782;
   box-sizing: border-box;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
-  width: 180px;
+  width: 275px;
 }
 
 #portrait {
@@ -91,7 +99,8 @@ nav {
   padding: 0 5%;
   font-family: "Ubuntu", sans-serif;
   height: 100px;
-  background: #5b5b5b;
+  background: #457782;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 nav .logo {
@@ -121,13 +130,14 @@ nav .links a {
   padding: 1em;
   display: block;
   font-size: 22px;
-  color: #d4d4d4;
+  color: white;
+  font-weight: 200;
   text-decoration: none;
 }
 
 nav .links a:hover {
-  font-size: 30px;
-  color: white;
+  font-size: 25px;
+  color: black;
   transition: 0.2s;
 }
 
@@ -171,7 +181,7 @@ nav .burger .line {
     justify-content: evenly;
     height: auto;
     width: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.85);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
   }
@@ -184,4 +194,73 @@ nav .burger .line {
   nav :checked ~ .links {
     bottom: 0;
   }
+}
+
+.me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  text-align: center;
+  color: black;
+}
+
+.me h2 {
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.me h2::after {
+  content: "Cameron";
+  animation: text 10s linear infinite;
+}
+
+@keyframes text {
+  33.3% {
+    content: "a Designer";
+  }
+  66.6% {
+    content: "a Producer";
+  }
+}
+
+.me a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  margin: -10px 10px;
+  transition: 0.2s linear;
+}
+
+.me a:hover {
+  color: #457782;
+  transform: scale(1.25);
+}
+
+#work {
+  margin-top: 80px;
+}
+
+#work h2 {
+  font-size: 15px;
+  line-height: 1px;
+  margin-bottom: 25px;
+}
+
+.portrait {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.portrait img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }

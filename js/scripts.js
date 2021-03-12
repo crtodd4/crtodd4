@@ -8,3 +8,7 @@ numRand = Math.floor(Math.random() * backgrounds.length);
 let pageBackground = document.querySelector("body");
 
 pageBackground.className = backgrounds[numRand];
+
+//const gallery = document.getElemenyBtId("gallery");
+
+//lightGallery(gallery);

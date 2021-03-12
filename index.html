@@ -30,14 +30,20 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
       </style> 
+      <style>
+          @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+          </style> 
 
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <!--<link rel="stylesheet" href="/css/lightgallery.min.css" />-->
+    <link rel="stylesheet" href="/css/lg-transitions.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" 
     href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   </head>
   <body>
     <!--<h1>CAMERON TODD</h1>-->
@@ -83,16 +89,30 @@
       
       </nav>
       
-    <img id="portrait" src="/img/cameron.jpg" alt="me" />
+   <!-- <img id="portrait" src="/img/cameron.jpg" alt="me" />
     <p>
       I was born in Tacoma, Washington in 1999. Ever since I could draw, I was
       into designing things. Everyday I love to create content, whether it is
       cover art, music, or anything in between.
-    </p>
+    </p>-->
+    <div class="portrait">
+    <img src="img/mainpic.jpg" alt="mainportrait">
+  </div>
 
-    <div id="title">
-      <h1>Some of my Work</h1>
+    <div class="me">
+      <h2>Hi I'm </h2>
+      <div class="social">
+        <a href="https://www.facebook.com/cameron.todd.549/" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/cato_beats" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/catobeats/?hl=en" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/cameron-todd-b485761b0/" class="fab fa-linkedin-in"></a>
+        <a href="https://www.youtube.com/channel/UCzRAhB9Vx6astEOzfulhWPA" class="fab fa-youtube"></a>
+      </div>
     </div>
+
+    <div id="work">
+      <h1>Some of my Work</h1>
+      <h2>(click to enlarge)</h2>
 
     <div id="gallery">
       
@@ -116,6 +136,7 @@
     
       
     </div>
+  </div>
 
     <h2>Contact Me</h2>
     <form
@@ -145,6 +166,9 @@
       </p>
     </form>
 
+    <!--This somehow isn't working so I just stayed with Tanner's Method-->
+    <!--<script src="/js/lightgallery.min.js"></script>
+    <script src="/js/lg-thumbnail.min.js"></script>-->
     <script src="/js/scripts.js"></script>
     <script src=
     "https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
