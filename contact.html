@@ -95,22 +95,39 @@
       into designing things. Everyday I love to create content, whether it is
       cover art, music, or anything in between.
     </p>-->
-    <div class="portrait">
-    <img src="img/mainpic.jpg" alt="mainportrait">
+    
+      
+
+  <div class="contact-me">
+
+    <h2>Contact Me</h2>
+    <form
+      name="My Contact Form"
+      method="POST"
+      data-netlify="true"
+      action="/thanks.html"
+    >
+      <p>
+        <label>Name: <input type="text" name="name" required /></label>
+      </p>
+
+      <p>
+        <label>Your Email: <input type="email" name="email" required /></label>
+      </p>
+
+      <p>
+        <label>Message: <textarea name="message" required></textarea></label>
+      </p>
+
+      <p>
+        <div data-netlify-recaptcha="true"></div>
+      </p>
+
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   </div>
-
-    <div class="me">
-      <h2>Hi I'm </h2>
-      <div class="social">
-        <a href="https://www.facebook.com/cameron.todd.549/" class="fab fa-facebook-f"></a>
-        <a href="https://twitter.com/cato_beats" class="fab fa-twitter"></a>
-        <a href="https://www.instagram.com/catobeats/?hl=en" class="fab fa-instagram"></a>
-        <a href="https://www.linkedin.com/in/cameron-todd-b485761b0/" class="fab fa-linkedin-in"></a>
-        <a href="https://www.youtube.com/channel/UCzRAhB9Vx6astEOzfulhWPA" class="fab fa-youtube"></a>
-      </div>
-    </div>
-
-  
     <!--This somehow isn't working so I just stayed with Tanner's Method-->
     <!--<script src="/js/lightgallery.min.js"></script>
     <script src="/js/lg-thumbnail.min.js"></script>-->
