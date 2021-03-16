@@ -1,6 +1,8 @@
 body {
   padding-top: 130px;
-  background: #e4f2f5;
+  background: url("https://i.imgur.com/kZUUOBl.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
   text-align: center;
